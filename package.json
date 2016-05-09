@@ -1,0 +1,30 @@
+{
+  "name": "grunt-command",
+  "description": "Run terminal commands from Grunt.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/edwardcasbon/grunt-command",
+  "author": {
+    "name": "Edward Casbon",
+    "email": "edward@edwardcasbon.co.uk",
+    "url": "http://www.edwardcasbon.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/edwardcasbon/grunt-command.git"
+  },
+  "bugs": {
+    "url": "https://github.com/edwardcasbon/grunt-command/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/edwardcasbon/grunt-command/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
