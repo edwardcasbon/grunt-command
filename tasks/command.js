@@ -17,7 +17,7 @@ module.exports = function(grunt) {
 
         exec(this.data.command, function(err, stdout, stderr) {
             grunt.log.writeln(stdout);
-            if(stderr !== null) {
+            if('' !== stderr) {
                 grunt.fail.warn(stderr);
             }
             cb();
