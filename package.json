@@ -1,7 +1,7 @@
 {
   "name": "grunt-command",
   "description": "Run terminal commands from Grunt.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/edwardcasbon/grunt-command",
   "author": {
     "name": "Edward Casbon",
