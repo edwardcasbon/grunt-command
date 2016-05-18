@@ -15,7 +15,7 @@ module.exports = function(grunt) {
         var exec = require('child_process').exec;
         var cb = this.async();
 
-        exec(this.data.command, function(err, stdout, stderr) {
+        exec('sh -c "' + this.data.command + '"', function(err, stdout, stderr) {
             grunt.log.writeln(stdout);
             if('' !== stderr) {
                 grunt.fail.warn(stderr);
